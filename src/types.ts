@@ -1,4 +1,4 @@
-import type { QueryFilters, UndefinedInitialDataOptions, UseMutationOptions, UseMutationResult, UseQueryResult } from '@tanstack/react-query';
+import type { QueryClient, QueryFilters, UndefinedInitialDataOptions, UseMutationOptions, UseMutationResult, UseQueryResult } from '@tanstack/react-query';
 
 
 // react query type overrides
@@ -41,8 +41,8 @@ export type RouterReturnType<T extends Routes> = {
   ? RouterReturnType<T[K]>
   : T[K];
 } & { useContext: () => ContextValue<T> };
-
 // context
+
 export type ContextValue<T extends Routes> = {
   [K in keyof T]: T[K] extends RouterReturnType<infer U>
   ? ContextValue<U>
@@ -59,3 +59,9 @@ export type ContextValue<T extends Routes> = {
   : never
   : never
 };
+
+
+//context
+export type ReactSafeQueryContextProps = {
+  queryClient: QueryClient;
+}

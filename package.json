@@ -1,6 +1,6 @@
 {
   "name": "react-safe-query",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A light weight typesafe wrapper around react query providing a typesafe api middleware for react. Built for people who love tRPC but whose application doesnt have typescript backend / dont want the associated bloat and configuration of tRPC.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -35,6 +35,9 @@
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.28.9"
