@@ -5,9 +5,12 @@ React-Safe-Query is a lightweight, type-safe wrapper built around React Query. I
 
 
 
+https://github.com/cwooldridge1/react-safe-query/assets/85259389/eb7f82ab-4a9e-4693-9df8-a15007b1d655
 
 
-https://github.com/cwooldridge1/react-safe-query/assets/85259389/6b80ea3a-8eed-493b-842e-088abdd9a466
+
+
+
 
 
 
