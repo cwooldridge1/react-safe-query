@@ -3,6 +3,15 @@
 React-Safe-Query is a lightweight, type-safe wrapper built around React Query. It provides a type-safe API middleware for React applications, making it perfect for developers who appreciate tRPC but are working with projects that either don't use a TypeScript backend or wish to avoid the bloat and configuration associated with tRPC.
 
 
+
+
+
+
+https://github.com/cwooldridge1/react-safe-query/assets/85259389/6b80ea3a-8eed-493b-842e-088abdd9a466
+
+
+
+
 ## Motivation
 React Query is powerful but lacks inbuilt type safety, a gap tRPC fills by offering excellent type safety and developer experience. Yet, tRPC demands a TypeScript backend, a requirement not all projects meet, especially with the rise of client-side databases like Supabase and Firebase eliminating the need for separate backends. React-Safe-Query steps in as the optimal solution for projects unable to use tRPC or those wishing to sidestep its extensive setup.
 
