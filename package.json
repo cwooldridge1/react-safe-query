@@ -1,6 +1,6 @@
 {
   "name": "react-safe-query",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Light weight typesafe api middleware for react-query",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
