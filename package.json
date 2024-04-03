@@ -1,7 +1,7 @@
 {
   "name": "react-safe-query",
   "version": "1.0.4",
-  "description": "A light weight typesafe wrapper around react query providing a typesafe api middleware for react. Built for people who love tRPC but whose application doesnt have typescript backend / dont want the associated bloat and configuration of tRPC.",
+  "description": "Light weight typesafe api middleware for react-query",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
