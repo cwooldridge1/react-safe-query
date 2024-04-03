@@ -41,7 +41,7 @@ Here's how to get started with React-Safe-Query:
 1. To define your application's data fetching logic with full type safety, start by creating routers. These routers will help you organize your queries and mutations efficiently. Here's a example:
 
   ```typescript
-  import { createRouter, query, mutation, createClient } from "react-safe-query/";
+  import { createRouter, query, mutation, createClient } from "react-safe-query";
   import { supabase } from "./supabase"; // Example: Your client safe database provider 
   import { z } from "zod"; // Example: For schema validation
   
@@ -90,7 +90,7 @@ Using the `apiClient` that we created before we can wrap our application with it
   
   const queryClient = new QueryClient();
   
-  function MyApp({ Component, pageProps }) {
+  function MyApp() {
     return (
         <QueryClientProvider client={queryClient}>
           <apiClient.Provider queryClient={queryClient}>
